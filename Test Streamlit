@@ -6,4 +6,4 @@ features = st.beta_container()
 modelTraining = st.beta_container()
 
 with header:
-    st.title('Ca y est ça marche!')
+    st.title('Ca y est ça marche aussi sous GitHub!')
