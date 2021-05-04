@@ -15,7 +15,7 @@ features = st.beta_container()
 modelTraining = st.beta_container()
 
 st.title('Projet Claim Generali')
-st.image('generalilogo.png')
+st.image('https://github.com/projetclaim/repo/blob/main/generalilogo.png')
 
 st.markdown('Texte1:')
 st.markdown('Texte2 ')
