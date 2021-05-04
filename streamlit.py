@@ -15,7 +15,7 @@ features = st.beta_container()
 modelTraining = st.beta_container()
 
 with header:
-st.title('Projet Claim Generali')
+    st.title('Projet Claim Generali')
     
 st.markdown('Texte1:')
 st.markdown('Texte2 ')
