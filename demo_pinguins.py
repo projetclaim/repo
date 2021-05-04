@@ -11,7 +11,7 @@ from sklearn.metrics import classification_report
 
 
 
-st.image("penguins.png", width=550)
+#st.image("penguins.png", width=550)
 st.title("Démo Streamlit : Pinguins")
 
 st.markdown("Objectif : Prédire la classe d'un pinguins")
