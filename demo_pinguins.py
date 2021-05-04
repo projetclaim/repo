@@ -16,7 +16,7 @@ st.title("Démo Streamlit : Pinguins")
 st.markdown("Objectif : Prédire la classe d'un pinguins")
 
 st.markdown('Chargement des données')
-df = pd.read_csv('penguins_size.csv')
+df = pd.read_csv('./penguins_size.csv')
 
 if st.checkbox('Afficher les données'):
    df
