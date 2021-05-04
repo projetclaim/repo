@@ -1,4 +1,7 @@
-#invite de commande
+#avant toute utilisation, lancer la commande suivante pour installer les differents modules via l'invite de commande
+#pip3 install pandas streamlit numpy seaborn matplotlib scikit_learn
+
+#Ensuite, utiliser l'invite de commande suivant pour ouvrir le streamlit
 #streamlit run https://github.com/projetclaim/repo/blob/main/streamlit.py
 
 import streamlit as st
@@ -12,9 +15,9 @@ features = st.beta_container()
 modelTraining = st.beta_container()
 
 with header:
-    st.title('Projet Claim Generali')
+st.title('Projet Claim Generali')
     
-st.markdown('Texte:')
+st.markdown('Texte1:')
 st.markdown('Texte2 ')
 
 st.sidebar.title('Réglages du modèle Regression Logistique')
