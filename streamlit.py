@@ -26,5 +26,4 @@ solver = st.sidebar.selectbox(label='Solver', options=['newton-cg', 'lbfgs', 'li
 st.sidebar.header('Hyperparamètres')
 C = st.sidebar.slider(label='C', min_value=.1, max_value=1.1, step=.1)  
 
-
 df = pd.read_csv('X_train')
