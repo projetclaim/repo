@@ -8,7 +8,6 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
-from Helper import load_data, summary_poster
 
 
 #st.image("https://github.com/projetclaim/repo/blob/main/penguins.png", width=550)
@@ -21,6 +20,7 @@ st.markdown('Chargement des données')
 #df = pd.read_csv('https://github.com/projetclaim/repo/blob/affd2ccea5cdf075d7a5cfdedc78f8eed09062f8/penguins_size.csv')
 #df = load_data("./penguins_size.csv")
 df = pd.read_csv("./penguins_size.csv")
+
 if st.checkbox('Afficher les données'):
    df
 
