@@ -21,5 +21,5 @@ st.sidebar.title('Réglages du modèle Regression Logistique')
 st.sidebar.header('Solver')
 solver = st.sidebar.selectbox(label='Solver', options=['newton-cg', 'lbfgs', 'liblinear'])
 st.sidebar.header('Hyperparamètres')
-C = st.sidebar.slider(label='C', min_value=0,1, max_value=1)  
+C = st.sidebar.slider(label='C', min_value=0.1, max_value=1)  
 
