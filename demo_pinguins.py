@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
-
+from Helper import load_data, summary_poster
 
 
 #st.image("https://github.com/projetclaim/repo/blob/main/penguins.png", width=550)
