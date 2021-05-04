@@ -18,7 +18,7 @@ st.markdown("Objectif : Prédire la classe d'un pinguins")
 
 st.markdown('Chargement des données')
 #df = pd.read_csv('https://github.com/projetclaim/repo/blob/main/penguins_size.csv', na_values=['.'])
-df = pd.read_csv('https://github.com/projetclaim/repo/blob/main/penguins_size.csv')
+df = pd.read_csv('https://github.com/projetclaim/repo/blob/affd2ccea5cdf075d7a5cfdedc78f8eed09062f8/penguins_size.csv')
 
 if st.checkbox('Afficher les données'):
    df
