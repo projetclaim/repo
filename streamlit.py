@@ -15,8 +15,9 @@ features = st.beta_container()
 modelTraining = st.beta_container()
 
 st.title('Projet Claim Generali')
-generali = Image.open('generalilogo.png')
-st.image(generali, use_column_width=True)
+
+#generali = Image.open('generalilogo.png')
+#st.image(generali, use_column_width=True)
 
 st.markdown('Texte1:')
 st.markdown('Texte2 ')
