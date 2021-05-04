@@ -11,13 +11,15 @@ from sklearn.metrics import classification_report
 
 
 
-st.image("https://github.com/projetclaim/repo/blob/main/penguins.png", width=550)
+#st.image("https://github.com/projetclaim/repo/blob/main/penguins.png", width=550)
 st.title("Démo Streamlit : Pinguins")
 
 st.markdown("Objectif : Prédire la classe d'un pinguins")
 
 st.markdown('Chargement des données')
-df = pd.read_csv('https://github.com/projetclaim/repo/blob/main/penguins_size.csv', na_values=['.'])
+#df = pd.read_csv('https://github.com/projetclaim/repo/blob/main/penguins_size.csv', na_values=['.'])
+df = pd.read_csv('https://github.com/projetclaim/repo/blob/main/penguins_size.csv')
+
 if st.checkbox('Afficher les données'):
    df
 
