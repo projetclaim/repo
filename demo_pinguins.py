@@ -19,7 +19,6 @@ st.markdown('Chargement des données')
 
 
 df = pd.read_csv('https://github.com/projetclaim/repo/blob/main/penguins_size.csv', na_values=['.'])
-#df = pd.read_csv('penguins_size.csv', na_values=['.'])
 if st.checkbox('Afficher les données'):
    df
 
